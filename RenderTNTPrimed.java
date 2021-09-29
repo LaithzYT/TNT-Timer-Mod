@@ -82,7 +82,7 @@ public class RenderTNTPrimed extends Render<EntityTNTPrimed>
     public void renderTag(RenderTNTPrimed tntRenderer, EntityTNTPrimed tntPrimed, double x, double y, double z, float partialTicks) {
     //renderTag method renders the time displayed above the tnt
     //now this next line sees if its enabled in gui or not and works like that
-    	if(ModInstances.getModTntTimer().isEnabled()) {
+    	if(ModInstances.getModTNTTimer().isEnabled()) {
         if (tntPrimed.fuse >= 1) {
             double d0 = tntPrimed.getDistanceSqToEntity(tntRenderer.getRenderManager().livingPlayer);
 
